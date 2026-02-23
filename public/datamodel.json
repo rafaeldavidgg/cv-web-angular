@@ -1,0 +1,53 @@
+{
+  "name": "Rafael David García Galocha",
+  "title": "Software Engineer",
+  "location": "Mairena del Alcor, Andalucía, España",
+  "summary": "Me siento cómodo trabajando en entornos dinámicos y colaborativos, donde el trabajo en equipo y la mejora continua son parte del día a día. Tengo experiencia en desarrollo web, tanto en frontend como en backend, y en metodologías ágiles. Me motiva seguir aprendiendo y enfrentando nuevos retos que impulsen mi crecimiento profesional y personal.",
+  "skills": [
+    "Resolución de problemas",
+    "Desarrollo de software",
+    "Diseño de software"
+  ],
+  "experience": [
+    {
+      "company": "Atrebo",
+      "role": "Ingeniero informático",
+      "startDate": "agosto de 2024",
+      "endDate": "Present",
+      "location": "Sevilla, Andalucia, España"
+    },
+    {
+      "company": "Atrebo",
+      "role": "Desarrollador de software",
+      "startDate": "enero de 2024",
+      "endDate": "junio de 2024",
+      "location": "Sevilla, Andalucía, España"
+    },
+    {
+      "company": "Atrebo",
+      "role": "Desarrollador de software (Prácticas extracurriculares)",
+      "startDate": "octubre de 2023",
+      "endDate": "noviembre de 2023",
+      "location": "Sevilla, Andalucia, España"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad de Sevilla",
+      "degree": "Ingeniería Informática - Ingeniería del Software",
+      "startDate": "septiembre de 2020",
+      "endDate": "julio de 2025"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Professional Scrum Master (PSM I)"
+    },
+    {
+      "name": "Professional Scrum Product Owner (PSPO I)"
+    },
+    {
+      "name": "B1 Preliminary"
+    }
+  ]
+}
