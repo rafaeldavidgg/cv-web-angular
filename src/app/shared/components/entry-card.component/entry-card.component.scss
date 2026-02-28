@@ -1,0 +1,63 @@
+.entry-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  border-left: 3px solid #005b9f;
+  background-color: #f9f9f9;
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateX(5px);
+  }
+
+  .entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    .title {
+      margin: 0;
+      font-size: 1.25rem;
+      color: #333;
+    }
+
+    .date-badge {
+      font-size: 0.85rem;
+      background-color: #e0e0e0;
+      padding: 0.25rem 0.75rem;
+      border-radius: 12px;
+      color: #555;
+    }
+  }
+
+  .entry-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+    .subtitle {
+      margin: 0;
+      font-size: 1.1rem;
+      color: #005b9f;
+      font-weight: 500;
+    }
+
+    .location {
+      font-size: 0.9rem;
+      color: #666;
+      font-style: italic;
+    }
+  }
+
+  .description {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #444;
+    line-height: 1.5;
+  }
+}

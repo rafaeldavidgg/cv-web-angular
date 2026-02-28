@@ -1,0 +1,12 @@
+<section class="experience-section">
+  <h2>Experiencia Profesional</h2>
+
+  <div class="experience-list">
+    @for (exp of experienceList(); track exp.startDate) {
+    <app-entry-card [title]="exp.role" [subtitle]="exp.company" [dateRange]="exp.startDate + ' - ' + exp.endDate"
+      [location]="exp.location" />
+    } @empty {
+    <p>Cargando experiencia...</p>
+    }
+  </div>
+</section>
