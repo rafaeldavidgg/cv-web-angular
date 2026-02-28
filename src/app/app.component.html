@@ -1,5 +1,26 @@
-<main class="cv-container">
-  <app-experience />
+<div class="dashboard-layout">
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <h2>Mi Portfolio</h2>
+    </div>
+    <nav class="sidebar-nav">
+      <ul>
+        <li>
+          <a routerLink="/experience" routerLinkActive="active">Experiencia</a>
+        </li>
+        <li>
+          <a routerLink="/education" routerLinkActive="active">Educación</a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
 
-  <router-outlet />
-</main>
+  <main class="main-content">
+    <header class="topbar">
+      <h1>Software Engineer</h1>
+    </header>
+    <div class="content-area">
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+</div>
